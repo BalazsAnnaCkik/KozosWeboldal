@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(26, 26, 26);
 }
 
 
@@ -108,29 +108,120 @@ body {
             padding-right: 50px; /* Távolság a jobb széltől */
         }
 
-        .elsonagy {
-            width: 800px; /* Kép mérete */
-            height: auto;
-        }
+        .elsonagy1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end; /* A kép jobb oldalra kerül */
+    align-items: center;
+    padding-right: 50px; /* Távolság a jobb széltől */
+}
 
-        .profilkep {
-            width: 60px; 
-            height: auto;
-            position: absolute; 
-            top: 11px; 
-            left: 5%;
-            transform: translateX(-50%);
-            z-index: 1100;
-        }
+.elsonagy {
+    width: 800px; /* Kép mérete */
+    height: auto;
+}
 
-        .fenyhatás {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        filter: blur(20px); /* Fényhatás elmosása */
+.profilkep {
+    width: 60px; 
+    height: auto;
+    position: absolute; 
+    top: 11px; 
+    left: 5%;
+    transform: translateX(-50%);
+    z-index: 1100;
+}
+
+.fenyhatás {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(20px); /* Fényhatás elmosása */
+}
+
+/* FŐOLDAL gomb */
+.fooldal {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.fooldal:hover {
+    color: rgb(0, 70, 0); /* Hover-effektus: zöld szín */
+}
+
+.fooldalgomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2.3%;
+    right: 20%;
+    z-index: 1100;
+}
+
+/* ÉRDEKEL gomb */
+.erdekel {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.erdekel:hover {
+    color: green; /* Hover-effektus: zöld szín */
+}
+
+.erdekelgomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2.3%;
+    right: 15%;
+    z-index: 1100;
+}
+
+/* TOBORZÓIRODÁK gomb */
+.toborzoiroda {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.toborzoiroda:hover {
+    color: green; /* Hover-effektus: zöld szín */
+}
+
+.toborzoirodagomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2.3%;
+    right: 5.4%;
+    z-index: 1100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
