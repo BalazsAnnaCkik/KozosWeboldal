@@ -1,6 +1,3 @@
-body {
-    background-color: black;
-}
 
 .fejlec {
     width: 100%;
@@ -17,14 +14,22 @@ body {
 }
 
 .csatlakozz {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    text-align: start;
-    color: white;
+    height: 100vh;
+    background-image: url('bdf7deaf2a664a31a25391862e1dbd13.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.csatlakozz h1 {
+    color: rgb(78, 32, 32);
     font-size: 350%;
     font-weight: bold;
     padding: 20px;
-    border-radius: 10px;
+    background-color: transparent;
 }
