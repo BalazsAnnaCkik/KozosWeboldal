@@ -16,10 +16,11 @@ body {
     background-color: rgb(58, 58, 58);
 }
 
+
 .csatlakozz {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 16.5%;
     transform: translate(-50%, -50%);
     text-align: start;
     color: white;
@@ -28,3 +29,54 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+
+
+.honvedkepelso {
+    width: 80px; 
+    height: auto;
+    position: absolute; 
+    top: 1px; 
+    left: 10%;
+    transform: translateX(-50%);
+    z-index: 1100;
+}
+
+.honvedkepmasodik {
+    width: 80px; 
+    height: auto;
+    position: absolute; 
+    top: 1px; 
+    left: 14%;
+    transform: translateX(-50%);
+    z-index: 1100;
+}
+
+
+.csatlakozzgomb {
+            background-color: #2F4F4F;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gomb {
+            background-color: white;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+            position: absolute;
+            top: 65%;
+            left: 8%
+        }
+
+        .gomb:hover {
+            background-color: lightgray;
+        }
