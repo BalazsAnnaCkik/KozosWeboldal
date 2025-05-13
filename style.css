@@ -1,4 +1,4 @@
-body {
+.body1 {
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -10,6 +10,12 @@ body {
     text-align: center;
     background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
 }
+
+.body2 {
+    background-color: black;
+    background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
+}
+
 
 .fejlec {
     width: 100%;
@@ -224,4 +230,26 @@ body {
     right: 5.4%;
     z-index: 1100;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.erdekelstyle {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    top: 2.3%;
+    right: 5.4%;
+    z-index: 1100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.erdekelweb {
+    color: white;
+    justify-content: start;
+    align-items: start;
+}
+
+.tableclass {
+    border: 3px solid white padding 10px;
 }
