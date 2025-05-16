@@ -53,11 +53,11 @@
 .csatlakozz {
     position: absolute;
     top: 50%;
-    left: 16.5%;
+    left: 14.9%;
     transform: translate(-50%, -50%);
     text-align: start;
     color: white;
-    font-size: 350%;
+    font-size: 110%;
     font-weight: bold;
     padding: 20px;
     border-radius: 10px;
