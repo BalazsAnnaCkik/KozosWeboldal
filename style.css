@@ -19,6 +19,13 @@
     align-items: center;
 }
 
+.body3 {
+  background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
+}
+
+.body4 {
+  background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
+}
 
 .fejlec {
     width: 100%;
@@ -39,7 +46,6 @@
     position: absolute;
     top: 50%;
     left: 16.5%;
-    transform: translate(-50%, -50%);
     text-align: start;
     color: white;
     font-size: 100%;
@@ -175,7 +181,7 @@
     align-items: center;
     position: fixed;
     top: 2.3%;
-    right: 20%;
+    right: 25%;
     z-index: 1100;
 }
 
@@ -202,8 +208,33 @@
     align-items: center;
     position: fixed;
     top: 2.3%;
-    right: 15%;
+    right: 20%;
     z-index: 1100;
+}
+.gyik {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.gyik:hover {
+    color: green; /* Hover-effektus: zöld szín */
+}
+
+.gyikgomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2.3%;
+    right: 8%;
+    z-index: 1100
 }
 
 /* TOBORZÓIRODÁK gomb */
@@ -228,8 +259,8 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 2.3%;
-    right: 5.4%;
+    top: 2.2%;
+    right: 11%;
     z-index: 1100;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -791,4 +822,62 @@ form.sign-in-form {
 .Csatlakozzkep {
     width: 550px;
     margin-right: 200px;
+}
+
+.toborzotable {
+  margin-top: 50px;
+  margin-left: 480px;
+  color: white;
+}
+
+.FEJLECSZOVEG {
+  color: #ffffff;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 750px;
+}
+
+.GYIKBODY {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.accordion {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px 24px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.3s ease;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+.accordion::after {
+  content: '+';
+  float: right;
+  font-size: 20px;
+}
+
+.accordion.active::after {
+  content: '-';
+}
+
+.panel {
+  padding: 0 24px 16px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 12px 12px 12px 12px;
+  display: none;
+  overflow: hidden;
+  margin-top: -27px;
+}
+
+.panel.open {
+  display: block;
 }
