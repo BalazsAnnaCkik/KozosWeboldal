@@ -1,0 +1,782 @@
+.body1 {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
+}
+
+.body2 {
+    background-color: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.952) 80%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.body3 {
+  background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
+}
+
+.body4 {
+  background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
+}
+
+
+.fejlec {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: rgb(26, 26, 26);
+}
+
+
+.csatlakozz {
+    position: absolute;
+    top: 40%;
+    left: 7.5%;
+    text-align: start;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+.honvedkepelso {
+    width: 80px; 
+    height: auto;
+    position: fixed;
+    top: 1px; 
+    left: 10%;
+    transform: translateX(-50%);
+    z-index: 1100;
+}
+
+.honvedkepmasodik {
+    width: 80px; 
+    height: auto;
+    position: fixed;
+    top: 1px; 
+    left: 14%;
+    transform: translateX(-50%);
+    z-index: 1100;
+}
+
+.zaszlo {
+    width: 80px; 
+    height: auto;
+    position: fixed;
+    top: 15px; 
+    left: -1.2%;
+    transform: translateX(-50%);
+    z-index: 1100;
+}
+
+.csatlakozzgomb {
+            background-color: #2f4f3c;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gomb {
+            background-color: white;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+            position: absolute;
+            top: 65%;
+            left: 8%
+        }
+
+        .gomb:hover {
+            background-color: lightgray;
+        }
+
+        .elsonagy1 {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-end; /* A kép jobb oldalra kerül */
+            align-items: center;
+            padding-right: 50px; /* Távolság a jobb széltől */
+        }
+
+        .elsonagy1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end; /* A kép jobb oldalra kerül */
+    align-items: center;
+    padding-right: 50px; /* Távolság a jobb széltől */
+}
+
+.elsonagy {
+    width: 800px; /* Kép mérete */
+    height: auto;
+}
+
+.profilkep {
+    width: 60px; 
+    height: auto;
+    position: fixed; 
+    top: 11px; 
+    left: 5%;
+    transform: translateX(-50%);
+    z-index: 1100;
+}
+
+.fenyhatás {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(20px); /* Fényhatás elmosása */
+}
+
+/* FŐOLDAL gomb */
+.fooldal {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.fooldal:hover {
+    color: rgb(0, 70, 0); /* Hover-effektus: zöld szín */
+}
+
+.fooldalgomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2.3%;
+    right: 25%;
+    z-index: 1100;
+}
+
+/* ÉRDEKEL gomb */
+.erdekel {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.erdekel:hover {
+    color: green; /* Hover-effektus: zöld szín */
+}
+
+.erdekelgomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2.3%;
+    right: 20%;
+    z-index: 1100;
+}
+.gyik {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.gyik:hover {
+    color: green; /* Hover-effektus: zöld szín */
+}
+
+.gyikgomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2.3%;
+    right: 5%;
+    z-index: 1100
+}
+
+/* TOBORZÓIRODÁK gomb */
+.toborzoiroda {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.toborzoiroda:hover {
+    color: green; /* Hover-effektus: zöld szín */
+}
+
+.toborzoirodagomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2.2%;
+    right: 8%;
+    z-index: 1100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.szerepkorok {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.szerepkorok:hover {
+    color: green; /* Hover-effektus: zöld szín */
+}
+
+.szerepkorokgomb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 2.2%;
+    right: 15%;
+    z-index: 1100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.erdekelstyle {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    top: 2.3%;
+    right: 5.4%;
+    z-index: 1100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.erdekelweb {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin: 30px;
+    margin-top: 120px;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: start;
+  margin: 30px auto;
+}
+
+.tableclass {
+  width: 90%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #212529; /* dark theme from Bootstrap */
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.tableclass th,
+.tableclass td {
+  padding: 15px;
+  border: 1px solid #343a40;
+  text-align: center;
+}
+
+.tableclass thead {
+  background-color: #343a40;
+  font-size: 18px;
+  border-bottom: 2px solid #495057;
+}
+
+.info-note {
+  font-style: italic;
+  color: gray;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+.extra-info::before {
+  content: "*";
+  position: absolute;
+  left: 0;
+  color: rgb(70, 66, 66);
+}
+
+p, li, td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: auto ;
+}
+
+h1, h2 {
+    font-family: 'Monaco', monospace; 
+    font-weight: bold; 
+    font-size: 2.3em;
+}
+
+.CSAM {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.MFAT {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.MKAH {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.AK {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.FSZE {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.AMHMV {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.EAJ {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.honvedkepharmadik {
+    width: 34%; 
+    height: auto;
+    position: absolute; 
+    top: 260px; 
+    left: 80%;
+    transform: translateX(-50%);
+    z-index: 900;
+}
+
+.honvednegyedikkep {
+    width: 34%; 
+    height: auto;
+    position: absolute; 
+    top: 1000px; 
+    left: 80%;
+    transform: translateX(-50%);
+    z-index: 900;
+}
+
+div.scroll-container {
+  background-color: #ada6a6;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+ max-width: 1200px;
+  max-height: 550px;
+  justify-content: center;
+  position: center ;
+  margin: auto;
+  
+}
+
+div.scroll-container img {
+  padding: 10px;
+  size: 10cm ;
+    max-width: 500px;
+  max-height: 550px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  background-color: #363636;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.forms-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.signin-signup {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 75%;
+  width: 50%;
+  transition: 1s 0.7s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr;
+  z-index: 5;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+form.sign-up-form {
+  opacity: 0;
+  z-index: 1;
+}
+
+form.sign-in-form {
+  z-index: 2;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.btn {
+  width: 150px;
+  background-color: #356300;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+
+.container:before {
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 2000px;
+  top: -10%;
+  right: 48%;
+  transform: translateY(-50%);
+  background-image: linear-gradient(-45deg, #ffffff 0%, #ffffff 100%);
+  transition: 1.8s ease-in-out;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+.h3 {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.p {
+  font-size: 0.95rem;
+  padding: 0.7rem 0;
+}
+
+@media (max-width: 870px) {
+  .container {
+    min-height: 800px;
+    height: 100vh;
+  }
+  .signin-signup {
+    width: 100%;
+    top: 95%;
+    transform: translate(-50%, -100%);
+    transition: 1s 0.8s ease-in-out;
+  }
+
+  .signin-signup,
+  .container.sign-up-mode .signin-signup {
+    left: 50%;
+  }
+
+
+  .h3 {
+    font-size: 1.2rem;
+  }
+
+  .p {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+  }
+
+  .btn.transparent {
+    width: 110px;
+    height: 35px;
+    font-size: 0.7rem;
+  }
+
+  .container:before {
+    width: 1500px;
+    height: 1500px;
+    transform: translateX(-50%);
+    left: 30%;
+    bottom: 68%;
+    right: initial;
+    top: initial;
+    transition: 2s ease-in-out;
+  }
+
+}
+.Csatlakozzkep {
+  width: 500px;
+  height: auto;
+}
+
+
+.toborzotable {
+  margin-top: 50px;
+  margin-left: 480px;
+  color: white;
+
+}
+
+.FEJLECSZOVEG {
+  color: #ffffff;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 750px;
+}
+
+.GYIKBODY {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.accordion {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px 24px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.3s ease;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 100px;
+}
+
+.accordion::after {
+  content: '+';
+  float: right;
+  font-size: 20px;
+}
+
+.accordion.active::after {
+  content: '-';
+}
+
+.panel {
+  padding: 0 24px 16px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 12px 12px 12px 12px;
+  display: none;
+  overflow: hidden;
+  margin-top: -27px;
+}
+
+.panel.open {
+  display: block;
+}
+
+.body6 {
+  background-color: white;
+  background: radial-gradient(circle, white 0%, rgba(255, 255, 255, 0.95) 80%);
+  background: url("Képek/pngegg.png") repeat-y left top,
+              url("Képek/pngegg.png") repeat-y right top; 
+              background-size: 60px auto;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+/* Tartalomkeret középen */
+.main-content {
+  max-width: 1000px;
+  width: 100%;
+  text-align: justify;
+  font-family: Verdana, sans-serif;
+}
+
+/* Címek stílusa */
+.main-content h1, .main-content h2, .main-content h3, .main-content h4 {
+  font-family: 'Monaco', monospace;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Bekezdés, lista, táblázatok közti térköz */
+.main-content p,
+.main-content ul,
+.main-content table {
+  margin-bottom: 20px;
+}
+
+/* Táblázat */
+.main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.main-content th,
+.main-content td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Szűkített vízszintes vonal */
+.main-content hr {
+  width: 40%;
+  margin: 40px auto;
+  height: 2px;
+  background-color: #444;
+  border: none;
+}
+
+/* Lista */
+.main-content ul {
+  padding-left: 20px;
+}
+
+.honvedkep {
+  display: block;
+  max-width: 40%; /* or any %/px size you want */
+  height: auto;
+  margin: 30px 0 30px auto; /* top right bottom left */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  float: right;
+}
