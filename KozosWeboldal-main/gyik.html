@@ -8,109 +8,104 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="gyik.js"></script>
-
 </head>
 <body class="body4">
-
-    
-     <div>
-        <img class="honvedkepelso img-fluid d-block mx-auto mx-sm-0 ms-sm-3 custom-img" src="Képek/honvédelső.png" alt="HM_logo_WHITE_ALLO_HU">
-        <img class="honvedkepmasodik img-fluid d-block mx-auto mx-sm-0 ms-sm-3 custom-img" src="Képek/honvédmásodik.png" alt="MH_logo_feher_HU-01-01">
-        <img class="profilkep img-fluid d-block mx-auto mx-sm-0 ms-sm-3 custom-img" src="Képek/profilkép.svg" alt="profilkep">
+    <div>
+        <img class="honvedkepelso img-fluid" src="Képek/honvédelső.png" alt="HM_logo_WHITE_ALLO_HU">
+        <img class="honvedkepmasodik img-fluid" src="Képek/honvédmásodik.png" alt="MH_logo_feher_HU-01-01">
+        <img class="profilkep img-fluid" src="Képek/profilkép.svg" alt="profilkep">
     </div>
 
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navigációs menü</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Főoldal</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tovább</a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="csatlakozz.html">Csatlakozz</a></li>
+                                <li><a class="dropdown-item" href="erdekel.html">Érdekel</a></li>
+                                <li><a class="dropdown-item" href="szerepkorok.html">Szerepkörök</a></li>
+                                <li><a class="dropdown-item" href="toborzoirodak.html">Toborzóirodák</a></li>
+                                <li><a class="dropdown-item" href="gyik.html">GYIK</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Főoldal</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Tovább
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="csatlakozz.html">Csatlakozz</a></li>
-                    <li><a class="dropdown-item" href="erdekel.html">Érdekel</a></li>
-                    <li>
-                    <li><a class="dropdown-item" href="szerepköeök.html">Szerepkörök</a></li>
-                    <li><a class="dropdown-item" href="toborzoirodak.html">Toborzóirodák</a></li>
-                    <li><a class="dropdown-item" href="gyik.html">GYIK</a></li>
-                      <hr class="dropdown-divider">
-                    </li>
-                </ul>
-                </li>
-                </ul>
-            </div>
-          </div>
         </div>
-      </nav>
-<div class="GYIKBODY">
+    </nav>
+
+    <div class="GYIKBODY">
         <button class="accordion">A leggyakrabban feltett kérdéseiteket megválaszoltuk nektek!</button>
         <div class="panel">
-            <p>
-            Itt van minden olyan kérdésre a válasz, amelyre a legtöbb kérdést kapjuk felőletek!
-            </p>
+            <p>Itt van minden olyan kérdésre a válasz, amelyre a legtöbb kérdést kapjuk tőletek!</p>
+        </div>
 
         <button class="accordion">Hol jelentkezhetek önkéntes tartalékosnak?</button>
         <div class="panel">
-        <p>Online a <a href="https://iranyasereg.hu">www.iranyasereg.hu</a> weboldalon, vagy személyesen bármelyik toborzóirodában, amelyeket megtalálsz a weboldalon felsorolva.</p>
+            <p>Online a <a href="https://iranyasereg.hu">www.iranyasereg.hu</a> weboldalon, vagy személyesen bármelyik toborzóirodában.</p>
         </div>
 
         <button class="accordion">Mik a jelentkezés feltételei?</button>
         <div class="panel">
-        <p>18. életév betöltése, cselekvőképesség, magyarországi bejelentett lakcím és legalább általános iskolai végzettség.</p>
-        </div>
-
-        <button class="accordion">Milyen juttatásokra számíthatok önkéntes tartalékosként?</button>
-        <div class="panel">
-        <p>Kiemelt illetményre, szerződéskötési díjra (bruttó 150.000 Ft), és évi bruttó 600.000 Ft rendelkezésre állási díjra, amely havonta 50.000 Ft-os részletekben kerül kifizetésre, ha ténylegesen rendelkezésre állsz a meghatározott időpontokban.</p>
-        </div>
-
-        <button class="accordion">Van-e alapkiképzés?</button>
-        <div class="panel">
-        <p>Igen, az önkéntes tartalékosok alapkiképzésen vesznek részt, ahol megtanulják a katonai alapokat, fegyverkezelést, alaki szabályokat, valamint elsősegélynyújtást.</p>
-        </div>
-
-        <button class="accordion">Mennyit kereshetek tartalékosként?</button>
-        <div class="panel">
-        <p>Az alapkiképzés alatt a napi illetményen felül napi 5.000 Ft szolgálati díj is jár, valamint a fent említett szerződéskötési és rendelkezésre állási díjak is fizethetők, így éves szinten több százezer forintot is kereshetsz.</p>
-        </div>
-
-        <button class="accordion">Kell-e fegyvert használnom?</button>
-        <div class="panel">
-        <p>A kiképzés során igen, hiszen meg kell tanulnod a fegyver biztonságos használatát, de szolgálatod alatt nem feltétlenül kerül sor fegyveres bevetésre.</p>
-        </div>
-
-        <button class="accordion">Meddig tart egy kiképzés?</button>
-        <div class="panel">
-        <p>Az alapkiképzés általában 2-4 hétig tart, amit egy vagy több ütemben, akár a nyári szünetben vagy szabadság idején is elvégezhetsz.</p>
-        </div>
-
-        <button class="accordion">Milyen kötelezettségeim lesznek?</button>
-        <div class="panel">
-        <p>Évente meghatározott időpontban kell rendelkezésre állnod, amelyről előre tájékoztatnak. A megjelenés kötelező, de egyeztetés alapján halasztható is indokolt esetben.</p>
+            <ul>
+                <li>18. életév betöltése</li>
+                <li>Cselekvőképesség</li>
+                <li>Magyarországi bejelentett lakcím</li>
+                <li>Legalább általános iskolai végzettség</li>
+            </ul>
         </div>
 
         <button class="accordion">Kapok-e egyenruhát?</button>
         <div class="panel">
-        <p>Igen, minden tartalékos katona kap egyenruhát, amelyet a kiképzésen és szolgálat közben viselnie kell.</p>
+            <p>Igen, minden tartalékos katona kap egyenruhát, amelyet a kiképzésen és szolgálat közben viselnie kell.</p>
         </div>
+    </div>
+
+        <button class="accordion">Milyen képzésekben fogok részt venni?</button>
+    <div class="panel">
+        <p>Az alapkiképzés során katonai alapokat, fegyverkezelést, alaki szabályokat, túlélési technikákat és elsősegélynyújtást tanulsz. A későbbiekben lehetőséged lesz specializációra is.</p>
+    </div>
+
+    <button class="accordion">Meddig tart az alapkiképzés?</button>
+    <div class="panel">
+        <p>Az alapkiképzés általában 2-4 hétig tart, amelyet ütemezetten, például nyári szünetben vagy szabadság alatt is el lehet végezni.</p>
+    </div>
+
+    <button class="accordion">Kapok fizetést az alapkiképzés alatt?</button>
+    <div class="panel">
+        <p>Igen, a kiképzés ideje alatt napi illetmény jár, valamint egy szolgálati díj, amelyet a részvételt követően kapsz meg.</p>
+    </div>
+
+    <button class="accordion">Milyen katonai felszereléseket biztosítanak?</button>
+    <div class="panel">
+        <p>Minden tartalékos katona kap egyenruhát, bakancsot, alapvető felszerelést, és a kiképzés során fegyverhasználati oktatásban is részesül.</p>
+    </div>
+
+    <button class="accordion">Hogyan néz ki egy tipikus szolgálati nap?</button>
+    <div class="panel">
+        <p>A szolgálati napok attól függően változnak, hogy milyen beosztásban szolgálsz. Általában fizikai edzések, szakmai oktatások, alaki gyakorlatok és adott feladatok végrehajtása szerepel a programban.</p>
+    </div>
+
+    <button class="accordion">Lesz lehetőség külföldi missziókra?</button>
+    <div class="panel">
+        <p>Igen, a Magyar Honvédség tagjai részt vehetnek NATO és EU missziókban, ahol nemzetközi tapasztalatot szerezhetnek és különféle szakmai kihívásokkal találkozhatnak.</p>
+    </div>
 
 
-
-</div>
+    <footer>
+        <p>© 2025 Magyar Honvédség</p>
+    </footer>
 </body>
 </html>
