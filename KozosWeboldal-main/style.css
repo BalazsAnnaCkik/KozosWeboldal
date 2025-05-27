@@ -32,6 +32,7 @@
   justify-content: center;
   padding: 60px 20px;
   color: rgb(0, 0, 0);
+  position: relative;
 }
 
 .fejlec {
@@ -328,27 +329,29 @@ h1, h2 {
     z-index: 900;
 }
 
-footer {
-  position: absolute;
-  top: 0;
+blockquote {
+  margin-bottom: 500px;
 }
+
+
 
 div.scroll-container {
   background-color: #073d0e;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
- max-width: 1200px;
+  max-width: 1200px;
   max-height: 550px;
   justify-content: center;
-  position: center ;
+  position: absolute ;
   margin: auto;
+  bottom: 0;
 }
 
 div.scroll-container img {
   padding: 10px;
   size: 10cm ;
-    max-width: 500px;
+  max-width: 500px;
   max-height: 550px;
 }
 
