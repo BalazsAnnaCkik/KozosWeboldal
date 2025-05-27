@@ -16,25 +16,22 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.952) 80%);
 }
 
 .body3 {
-  background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
-}
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.952) 80%);}
 
 .body4 {
-  background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
-}
+  background: radial-gradient(circle, rgb(2, 37, 14) 0%, rgba(0, 0, 0, 0.952) 80%);}
 
 .body6 {
   background-color: white;
-  background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
   background-size: 60px auto;
   display: flex;
   justify-content: center;
   padding: 60px 20px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .fejlec {
@@ -168,59 +165,7 @@
     filter: blur(20px); /* Fényhatás elmosása */
 }
 
-/* FŐOLDAL gomb */
-.fooldal {
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background: none;
-    border: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    padding: 5px 15px;
-    transition: color 0.3s ease-in-out;
-}
 
-.fooldal:hover {
-    color: rgb(0, 70, 0); /* Hover-effektus: zöld szín */
-}
-
-.fooldalgomb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 2.3%;
-    right: 25%;
-    z-index: 1100;
-}
-
-/* ÉRDEKEL gomb */
-.erdekel {
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background: none;
-    border: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    padding: 5px 15px;
-    transition: color 0.3s ease-in-out;
-}
-
-.erdekel:hover {
-    color: green; /* Hover-effektus: zöld szín */
-}
-
-.erdekelgomb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 2.3%;
-    right: 20%;
-    z-index: 1100;
-}
 .gyik {
     font-size: 18px;
     font-weight: bold;
@@ -233,19 +178,6 @@
     transition: color 0.3s ease-in-out;
 }
 
-.gyik:hover {
-    color: green; /* Hover-effektus: zöld szín */
-}
-
-.gyikgomb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 2.3%;
-    right: 5%;
-    z-index: 1100
-}
 
 /* TOBORZÓIRODÁK gomb */
 .toborzoiroda {
@@ -260,20 +192,7 @@
     transition: color 0.3s ease-in-out;
 }
 
-.toborzoiroda:hover {
-    color: green; /* Hover-effektus: zöld szín */
-}
 
-.toborzoirodagomb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 2.2%;
-    right: 8%;
-    z-index: 1100;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 .szerepkorok {
     font-size: 18px;
@@ -287,42 +206,7 @@
     transition: color 0.3s ease-in-out;
 }
 
-.szerepkorok:hover {
-    color: green; /* Hover-effektus: zöld szín */
-}
 
-.szerepkorokgomb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 2.2%;
-    right: 15%;
-    z-index: 1100;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-
-
-.erdekelstyle {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    position: absolute;
-    top: 2.3%;
-    right: 5.4%;
-    z-index: 1100;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
-}
-
-.erdekelweb {
-    color: white;
-    text-align: justify;
-    margin: 30px;
-    margin-top: 120px;
-}
 
 .table-wrapper {
   display: flex;
@@ -335,8 +219,8 @@
   max-width: 1000px;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
-  background-color: #212529; /* dark theme from Bootstrap */
-  color: #fff;
+  background-color: #ffffff; /* dark theme from Bootstrap */
+  color: #000000;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -391,37 +275,37 @@ h1, h2 {
 .MFAT {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .MKAH {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .AK {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .FSZE {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .AMHMV {
     margin-top: 20px;
     margin-bottom: 50px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .EAJ {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .honvedkepharmadik {
@@ -444,8 +328,13 @@ h1, h2 {
     z-index: 900;
 }
 
+footer {
+  position: absolute;
+  top: 0;
+}
+
 div.scroll-container {
-  background-color: #ffffff;
+  background-color: #073d0e;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
@@ -465,12 +354,6 @@ div.scroll-container img {
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: black;
-}
 
 body,
 input {
@@ -480,10 +363,9 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-color: #4e4e4e;
+  background-color: #ffffff;
   min-height: 100vh;
   overflow: hidden;
-  margin-left: 33%;
 }
 
 .forms-container {
@@ -491,19 +373,23 @@ input {
   width: 100%;
   height: 100%;
   top: 0;
-  left:0;
+  left: 0;
 }
 
 .signin-signup {
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 55%;
-  width: 50%;
+  top: 50%;                             /* Függőleges középre igazítás */
+  right: 0;                             /* Jobb oldalra tolás */
+  transform: translateY(-50%);          /* Pontos középre igazítás csak vertikálisan */
+  width: 40vw;                          /* Szélesség a képernyőhöz képest */
   transition: 1s 0.7s ease-in-out;
   display: grid;
   grid-template-columns: 1fr;
   z-index: 5;
+  border-radius: 20px;                  /* Lekerekített sarkok */
+  background-color: #264601ec;           /* Barna háttér */
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4); /* Árnyék a kiemeléshez */
 }
 
 form {
@@ -511,7 +397,7 @@ form {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0rem 5rem;
+  padding: 0rem 2rem;
   transition: all 0.2s 0.7s;
   overflow: hidden;
   grid-column: 1 / 2;
@@ -589,12 +475,12 @@ form.sign-in-form {
 }
 
 .csatlakozzkep {
-    position: absolute;
-    top: -100px; /* Mozgatás felfelé */
-    left: 10%;
-    transform: translateX(-50%);
-    z-index: 150;
-    width: 140%;
+  position: absolute;
+  top: -100px;
+  left: 10%;
+  transform: translateX(-50%);
+  z-index: 150;
+  width: 140%;
 }
 
 .h3 {
@@ -608,24 +494,19 @@ form.sign-in-form {
   padding: 0.7rem 0;
 }
 
-@media (max-width: 870px) {
+/* Mobilnézethez */
+@media (max-width: 	750px) {
   .container {
     min-height: 800px;
     height: 100vh;
   }
+
   .signin-signup {
-    width: 100%;
-    top: 95%;
-    transform: translate(-50%, -100%);
+    width: 90%;
+    right: 50%;
+    transform: translate(50%, -50%);
     transition: 1s 0.8s ease-in-out;
   }
-
-  .signin-signup,
-  .container.sign-up-mode .signin-signup {
-    left: 60%;
-    transform: translate(-50%, -50%);
-  }
-
 
   .h3 {
     font-size: 1.2rem;
@@ -634,7 +515,7 @@ form.sign-in-form {
   .p {
     font-size: 0.7rem;
     padding: 0.5rem 0;
-  } 
+  }
 
   .btn.transparent {
     width: 110px;
@@ -651,8 +532,9 @@ form.sign-in-form {
     right: initial;
     top: initial;
   }
-
 }
+
+
 .Csatlakozzkep {
   width: 500px;
   height: auto;
@@ -782,14 +664,14 @@ form.sign-in-form {
 }
 
 .barkivalhathosse {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .tablebody {
   width: 80%; 
   margin: 20px auto; /* Középre igazítás */
   border-collapse: collapse;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   color: #333;
   font-family: Arial, sans-serif;
   font-size: 0.9rem; /* Kisebb szöveg */
@@ -810,3 +692,16 @@ form.sign-in-form {
   background-color: #d0d0d0;
   transition: 0.2s ease-in-out;
 }
+
+
+.video1 {
+  width: 900px;
+  height: 600px; 
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  border: 2px solid #356300; /* Light gray border */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Smooth shadow */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
