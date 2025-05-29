@@ -405,6 +405,7 @@ input {
   background-color: #264601ec;           /* Barna háttér */
   padding: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.4); /* Árnyék a kiemeléshez */
+  margin-right: 0px;
 }
 
 form {
@@ -560,8 +561,39 @@ form.sign-in-form {
   margin-top: 50px;
   margin-left: 480px;
   color: white;
-
 }
+
+/* Mobilnézet (max 768px): középre igazított, kisebb táblázat */
+@media (max-width: 768px) {
+  .toborzotable {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* teljes képernyőmagasság */
+    background-color: #000; /* opcionális: sötét háttér, ha fehér a szöveg */
+  }
+
+  .toborzotable table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: #111; /* opcionális: háttérszín */
+  }
+
+  .toborzotable th, .toborzotable td {
+    padding: 6px;
+    word-break: break-word;
+    text-align: left;
+  }
+
+  .toborzotable thead {
+    background-color: #222; /* opcionális: fejléchez háttérszín */
+  }
+}
+
 
 .FEJLECSZOVEG {
   color: #ffffff;
@@ -709,15 +741,36 @@ form.sign-in-form {
 }
 
 
-.video1 {
+.responsive-video {
   width: 900px;
-  height: 600px; 
+  height: 600px;
   float: left;
-  margin-top: 100px;
+  margin-top: 160px;
   margin-left: 100px;
-  border: 2px solid #356300; /* Light gray border */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Smooth shadow */
-  border-radius: 10px; /* Optional: rounded corners */
+  border: 2px solid #356300;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Mobilnézet: 768px alatt */
+@media (max-width: 768px) {
+  .responsive-video {
+    width: 300px;
+    height: 170px;
+    float: none;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .video2
