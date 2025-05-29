@@ -11,19 +11,12 @@
     background: radial-gradient(circle, rgb(1, 31, 11) 0%, rgba(0, 0, 0, 0.952) 80%);
 }
 
-.body2 {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.952) 80%);
-}
 
 .body3 {
-  background: radial-gradient(circle, rgb(2, 37, 14) 0%, rgba(0, 0, 0, 0.952) 80%);}
+  background: radial-gradient(circle, rgb(5, 41, 18) 0%, rgba(58, 58, 58, 0.952) 80%);}
 
 .body4 {
-  background: radial-gradient(circle, rgb(2, 37, 14) 0%, rgba(0, 0, 0, 0.952) 80%);}
+  background: radial-gradient(circle, rgb(2, 37, 14) 0%, rgba(59, 59, 59, 0.952) 80%);}
 
   .body5{
     background-size: cover;
@@ -31,6 +24,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
+    background: radial-gradient(circle, rgb(2, 37, 14) 0%, rgba(0, 0, 0, 0.952) 80%);
   }
 
 .body6 {
@@ -42,6 +36,54 @@
   color: rgb(0, 0, 0);
   position: relative;
 }
+
+.forrosbody {
+  background-image: url(Képek/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+
+
+.kozepre-doboz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* teljes képernyő magasság */
+  background-color: #1b1b1bdc; /* háttér (opcionális) */
+}
+
+.atlatszo-doboz {
+  background-color: rgba(15, 15, 15, 0.3); /* fehér háttér 30% átlátszósággal */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.651);
+  backdrop-filter: blur(10px); /* üveges hatás (opcionális) */
+}
+
+ol>li{
+  list-style: lower-greek;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    color: rgb(248, 248, 248);
+    text-shadow: 5px 5px 15px black;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
 
 .fejlec {
     width: 100%;
@@ -62,6 +104,7 @@
     position: absolute;
     top: 40%;
     left: 7.5%;
+    margin-left: 350px;
     text-align: start;
     color: white;
     font-size: 100%;
@@ -75,7 +118,7 @@
     height: auto;
     position: fixed;
     top: 1px; 
-    left: 5%;
+    left: 8%;
     transform: translateX(-50%);
     z-index: 1100;
 }
@@ -85,20 +128,23 @@
     height: auto;
     position: fixed;
     top: 1px; 
-    left: 8%;
+    left: 11%;
     transform: translateX(-50%);
     z-index: 1100;
 }
 
-.zaszlo {
-    width: 60px; 
+
+.profilkep {
+    width: 40px; 
     height: auto;
-    position: fixed;
-    top: 12px; 
-    right: -3.2%;
+    position: fixed; 
+    top: 11px; 
+    left: 14%;
     transform: translateX(-50%);
     z-index: 1100;
 }
+
+
 
 .csatlakozzgomb {
             background-color: #2f4f3c;
@@ -106,6 +152,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            
         }
 
         .gomb {
@@ -122,7 +169,8 @@
             transition: 0.3s ease-in-out;
             position: absolute;
             top: 65%;
-            left: 8%
+            left: 8%;
+            margin-left: 350px;
         }
 
         .gomb:hover {
@@ -152,16 +200,6 @@
     height: auto;
 }
 
-.profilkep {
-    width: 40px; 
-    height: auto;
-    position: fixed; 
-    top: 11px; 
-    left: 11%;
-    transform: translateX(-50%);
-    z-index: 1100;
-}
-
 .fenyhatás {
     width: 200px;
     height: 200px;
@@ -174,6 +212,34 @@
     filter: blur(20px); /* Fényhatás elmosása */
 }
 
+
+.fixed-soldier {
+      position: fixed;
+      top: 50%;
+      left: 0;
+       transform: translateY(-50%) scaleX(-1);
+      z-index: 1000;
+       height: 500px; 
+      mix-blend-mode: multiply;
+    }
+
+.fixed-soldier2 {
+      position: fixed;
+      top: 50%;
+      right: 0;
+       transform: translateY(-50%) scaleX(-1);
+      z-index: 1000;
+       height: 500px; 
+      mix-blend-mode: multiply;
+    }
+
+   .Katona1{
+    margin: auto;
+  height:100%;
+  width: 100%;
+   }
+
+   
 
 .gyik {
     font-size: 18px;
@@ -264,7 +330,7 @@
 
 p, li, td {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: auto ;
+    text-align: center ;
 }
 
 h1, h2 {
@@ -349,7 +415,6 @@ h1, h2 {
 
 
 div.scroll-container {
-  background-color: #073d0e;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
@@ -363,21 +428,22 @@ div.scroll-container {
 
 div.scroll-container img {
   padding: 10px;
-  size: 10cm ;
   max-width: 500px;
   max-height: 550px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import 
+url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 
-body,
-input {
+
+
+body,input {
   font-family: "Poppins", sans-serif;
 }
 
 .container {
-  position: right;
+  text-align: right;
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
@@ -775,9 +841,9 @@ form.sign-in-form {
 
 .video2
 {
-  width: 1310 ;
-  height: 737px ;
-  float: center;
+  width: 1000px ;
+  height: 500px ;
+  text-align: center;
   bottom: 0;
 }
 
